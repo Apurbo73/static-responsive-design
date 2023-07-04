@@ -159,6 +159,22 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* services section: */}
+
+      <div className="container">
+        <div className="row mt-5">
+          <div className="col-md-12">
+            <div className="text-center pb-5">
+              <h2>Our Services.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis, delectus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
