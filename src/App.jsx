@@ -55,7 +55,6 @@ function App() {
           </div>
         </div>
       </nav>
-
       <div
         id="carouselExampleCaptions"
         className="carousel slide"
@@ -137,6 +136,29 @@ function App() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      {/* about section: */}
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-12 col-12">
+              <div className="image mt-5">
+                <img className="img-fluid" src="image/about.jpg" alt="" />
+              </div>
+            </div>
+
+            <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <h2>Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+                atque amet sed commodi quaerat rerum, cumque, tempora quidem
+                corporis enim quasi et quo delectus incidunt? Temporibus
+                delectus tempora rem dicta.
+              </p>
+              <div className="btn btn-warning">Click for more</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
