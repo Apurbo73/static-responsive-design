@@ -86,22 +86,34 @@ function App() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="image/home-1.jpg" className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block text-light">
-              <h5>Your Dream House Design</h5>
+            <div className="carousel-caption text-light">
+              <h2>Your Dream House Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia corporis consectetur ea atque delectus. Illo tempore
+              </p>
               <button className="btn btn-warning">CLick For More</button>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="image/home-1.jpg" className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block text-light">
-              <h5>Your Dream House Design</h5>
+            <img src="image/home-2.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-caption text-light">
+              <h2>Your Dream House Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia corporis consectetur ea atque delectus. Illo tempore
+              </p>
               <button className="btn btn-warning">CLick For More</button>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="image/home-1.jpg" className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block text-light">
-              <h5>Your Dream House Design</h5>
+            <img src="image/home-3.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-caption text-light">
+              <h2>Your Dream House Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia corporis consectetur ea atque delectus. Illo tempore
+              </p>
               <button className="btn btn-warning">CLick For More</button>
             </div>
           </div>

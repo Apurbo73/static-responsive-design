@@ -10,7 +10,46 @@ body {
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
-.carousel-caption{
-    bottom: 220px;
+
+.carousel-caption {
+    margin-bottom: 450px;
     z-index: 2;
+}
+
+.nav-link:hover {
+    background-color: rgb(247, 210, 90);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* Responsive layout settup: */
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        margin-bottom: 0px;
+        margin-top: 80px;
+        z-index: 2;
+    }
+
+}
+
+/* tab - tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .carousel-caption {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        z-index: 2;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1336px) {
+    .carousel-caption {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        z-index: 2;
+    }
 }
